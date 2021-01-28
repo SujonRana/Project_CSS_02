@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+header{
+    background: url("image/h_image.png") no-repeat center;
+    width:100%;
+    height: 650px;
+    background-size: cover;
+
+}
+
+header .header_top table{
+    width: 100%;
+}
+header .header_top .logo{
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 4% 0 0 10%;
+}
+header .header_top .logo span{
+    color:tomato;
+}
+
+header .header_top .manu{
+    color: white;
+    font-size: 16px;
+    margin: 4% 10% 0 0 ;
+
+}
+
+header .header_top .manu table tr td{
+    padding: 13px 0px 0px 3%;
+    float: right;
+}
+
+.header_middle{
+    background: tomato;
+    width: 100%;
+    height: 200px;
+    margin-top: 150px;
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    font-weight: bolder;
+}
+.header_middle span{
+    font-size: 40px;
+    font-weight: normal;
+    letter-spacing: 30px;
+}
+button{
+    background-color: tomato;
+    border: 1px solid white;
+    font-size: 20px;
+    padding: 5px 15px;
+    border-radius: 8px;
+    color: white;
+}
+.s_01{
+    width: 70%;
+    margin:70px auto;
+}
+.contant1{
+    width: 30%;
+    text-align: center;
+    float: left;
+    padding: 15px;
+
+}
+.contant1 p{
+    margin-top: 20px;
+    text-align: justify;
+    color: grey;
+}
+.contant1 h2{
+    color: tomato;
+}
+
+.s_01:after{
+    content: "";
+    display: block;
+    clear:both;
+}
+.s_02{
+    width: 100%;
+    height: 380px;
+    background: #242424;
+    text-align: center;
+    
+}
+.ss2{
+    width:60%;
+    margin: auto;
+    padding: 100px 0px;
+}
+.ss2 h1{
+    font-size: 60px;
+    color: tomato;
+    margin-bottom: 30px;
+}
+.ss2 p{
+    font-size: 20px;
+    color: white;
+}
+footer{
+    background: tomato;
+    color: white;
+    width: 100%;
+    height: 100px;
+    font-size: 20px;
+    padding-top: 70px;
+    text-align: center;
+
+}
